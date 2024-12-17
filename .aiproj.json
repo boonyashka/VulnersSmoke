@@ -1,0 +1,22 @@
+{
+    "ProjectName": "VulnersSmoke",
+    "ProgrammingLanguages": [
+        "Java"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "JavaSettings": {
+        "UnpackUserPackages": false,
+        "Version": "17",
+        "UsePublicAnalysisMethod": true,
+        "DownloadDependencies": true
+    },
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
