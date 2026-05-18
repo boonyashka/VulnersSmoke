@@ -8,5 +8,5 @@ if (empty($_GET['domain'])) {
 }
 
 $domain = $_GET['domain'];
-system("nslookup $domain");
+//system("nslookup $domain");
 ?>
