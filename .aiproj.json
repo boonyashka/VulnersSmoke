@@ -4,7 +4,8 @@
         "Java"
     ],
     "ScanModules": [
-        "StaticCodeAnalysis"
+        "StaticCodeAnalysis",
+        "BlackBox"
     ],
     "SkipGitIgnoreFiles": true,
     "JavaSettings": {
@@ -18,9 +19,6 @@
     },
     "BlackBoxSettings": {
         "Site": "http://we-bricks-2.rd.ptsecurity.ru/",
-        "Level": "Normal",
-        "SslCheck": false,
-        "ScanScope": "Folder",
         "BlackListedAddresses": [],
         "WhiteListedAddresses": [],
         "AdditionalHttpHeaders": [],
@@ -35,6 +33,6 @@
             "Login": null,
             "Password": ""
         },
-        "RunAutocheckAfterScan": true
+        "RunAutocheckAfterScan": false
     }
 }
