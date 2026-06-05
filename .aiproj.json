@@ -17,6 +17,24 @@
         "UsePublicAnalysisMethod": true
     },
     "BlackBoxSettings": {
-        "Site": "http://localhost"
+        "Site": "http://we-bricks-2.rd.ptsecurity.ru/",
+        "Level": "Normal",
+        "SslCheck": false,
+        "ScanScope": "Folder",
+        "BlackListedAddresses": [],
+        "WhiteListedAddresses": [],
+        "AdditionalHttpHeaders": [],
+        "Authentication": {
+            "Type": "None"
+        },
+        "ProxySettings": {
+            "Enabled": false,
+            "Type": "Http",
+            "Host": null,
+            "Port": 3128,
+            "Login": null,
+            "Password": ""
+        },
+        "RunAutocheckAfterScan": true
     }
 }
